@@ -1,0 +1,8 @@
+query getTodos {
+    todos {
+        no
+        todo
+        desc
+        completed
+    }
+}

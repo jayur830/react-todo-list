@@ -1,0 +1,7 @@
+mutation addTodo($todo: TodoInput!) {
+    addTodo(todo: $todo) {
+        no
+        todo
+        desc
+    }
+}

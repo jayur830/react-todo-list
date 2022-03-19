@@ -1,0 +1,21 @@
+{
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+	"editor.tabSize": 4,
+    "editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"source.fixAll.tslint": true,
+		"source.fixAll.stylelint": true
+	},
+    "editor.singleQuote": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+	"[typescriptreact]": {
+		"editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}

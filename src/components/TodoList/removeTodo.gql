@@ -1,0 +1,7 @@
+mutation removeTodo($todo: TodoInput!) {
+    removeTodo(todo: $todo) {
+        no
+        todo
+        desc
+    }
+}
